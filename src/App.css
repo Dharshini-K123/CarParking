@@ -1,0 +1,23 @@
+/* src/App.css */
+.parking-lot {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parking-space {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parking-space.available {
+  background-color: #e0ffe0;
+}
+
+.parking-space.occupied {
+  background-color: #ffe0e0;
+}
